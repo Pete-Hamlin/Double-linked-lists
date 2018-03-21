@@ -4,9 +4,9 @@ LDFLAGS= -g
 VPATH=src:
 BINDIR=bin
 
-SRC=main.cc
+SRC=main.cc linked_list.cc node.cc
 OBJ=$(SRC:.cpp=.o)
-TARGET=$(BINDIR)/TARGET
+TARGET=$(BINDIR)/linked_list
 
 RM=rm -f
 

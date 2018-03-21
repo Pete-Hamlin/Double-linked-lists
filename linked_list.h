@@ -6,5 +6,10 @@ using namespace std;
 
 class Linked_list {
 public:
+    Linked_list();
+    void insert(int ident);
+    void display();
+    Node *_head;
+};
 
-}
+#endif

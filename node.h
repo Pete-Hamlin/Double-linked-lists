@@ -5,6 +5,14 @@
 using namespace std;
 
 class Node {
+public:
     Node();
+    void cover();
+    void name();
+    Node *_prev;
+    Node *_next;
 
-}
+    int _ident;
+};
+
+#endif
